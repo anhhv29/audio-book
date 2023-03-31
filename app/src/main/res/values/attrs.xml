@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VectorSupportEditText">
+        <attr name="supportDrawableStart" format="reference"/>
+        <attr name="supportDrawableEnd" format="reference"/>
+        <attr name="supportDrawableTop" format="reference"/>
+        <attr name="supportDrawableBottom" format="reference"/>
+        <attr name="supportDrawableStartSquareSize" format="dimension"/>
+        <attr name="supportDrawableEndSquareSize" format="dimension"/>
+        <attr name="supportDrawableTopSquareSize" format="dimension"/>
+        <attr name="supportDrawableBottomSquareSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="VectorSupportTextView">
+        <attr name="drawableTintCompat" format="color"/>
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="drawableStartSquareSize" format="dimension"/>
+        <attr name="drawableEndSquareSize" format="dimension"/>
+        <attr name="drawableTopSquareSize" format="dimension"/>
+        <attr name="drawableBottomSquareSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleBottomSheetItem">
+        <attr name="icon" format="reference"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleMenuItem">
+        <attr name="menuIcon" format="reference"/>
+        <attr name="menuText" format="string"/>
+        <attr name="menuSecondaryText" format="string"/>
+        <attr name="menuShowBottomDivider" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AHBottomNavigationBehavior_Params">
+        <attr name="tabLayoutId" format="reference" />
+        <attr name="selectedBackgroundVisible" format="boolean" />
+        <attr name="translucentNavigationEnabled" format="boolean" />
+        <attr name="colored" format="boolean" />
+        <attr name="showIndicator" format="boolean" />
+        <attr name="accentColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="disableColor" format="color" />
+        <attr name="coloredActive" format="color" />
+        <attr name="coloredInactive" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FeatureCoverFlow">
+        <attr name="coverWidth" format="dimension" />
+        <attr name="coverHeight" format="dimension" />
+        <attr name="spacing" format="float" />
+        <attr name="rotationThreshold" format="float" />
+        <attr name="scalingThreshold" format="float" />
+        <attr name="adjustPositionThreshold" format="float" />
+        <attr name="adjustPositionMultiplier" format="float" />
+        <attr name="maxRotationAngle" format="float" />
+        <attr name="maxScaleFactor" format="float" />
+        <attr name="circlePathRadius" format="float" />
+        <attr name="circlePathRadiusInMatrixSpace" format="float" />
+        <attr name="reflectionHeight" format="float" />
+        <attr name="reflectionGap" format="dimension" />
+        <attr name="reflectionOpacity" format="integer" />
+        <attr name="tunningWidgetSize" format="dimension" />
+        <attr name="alignAnimationTime" format="integer" />
+        <attr name="verticalPaddingTop" format="dimension" />
+        <attr name="verticalPaddingBottom" format="dimension" />
+        <attr name="reflectionBackroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="EndlessLoopAdapterContainer">
+        <attr name="shouldRepeat" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BasicContentBand">
+        <attr name="gridMode">
+            <flag name="fixed" value="0"/>
+            <flag name="dynamic" value="1"/>
+        </attr>
+
+        <attr name="deviceSpecificPixelSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CoverFlowPager">
+        <attr name="visibleIndex" format="integer"/>
+        <attr name="listSpacing" format="dimension" />
+        <attr name="selectedSpacing" format="dimension" />
+        <attr name="rotateFactor" format="float"/>
+        <attr name="rotateLimit" format="float"/>
+        <attr name="alphaFactor" format="float"/>
+        <attr name="scaleFactor" format="float"/>
+        <attr name="gravityFactor" format="float"/>
+        <attr name="listRadius" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiViewPager">
+        <!-- Child view inside a page to match the page size against. -->
+        <attr name="matchChildWidth" format="reference" />
+        <!-- Maximum size. -->
+        <attr name="android:maxWidth" />
+        <!-- Maximum size. -->
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="GaugeSeekBar">
+        <attr name="startAngleDegrees" format="float" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="showThumb" format="boolean" />
+        <attr name="thumbColor" format="color" />
+        <attr name="trackGradient" format="color" />
+        <attr name="showProgress" format="boolean" />
+        <attr name="trackGradientPositions" format="reference" />
+        <attr name="progress" format="float" />
+        <attr name="interactive" format="boolean" />
+        <attr name="trackWidth" format="dimension" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="progressGradient" format="reference" />
+        <attr name="progressGradientPositions" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress_default" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="move_outside_circle" format="boolean"/>
+        <attr name="maintain_equal_circle" format="boolean"/>
+        <attr name="use_custom_radii" format="boolean"/>
+        <attr name="lock_enabled" format="boolean"/>
+        <attr name="circle_x_radius" format="dimension" />
+        <attr name="circle_y_radius" format="dimension" />
+        <attr name="circle_stroke_width" format="dimension" />
+        <attr name="pointer_radius" format="dimension" />
+        <attr name="pointer_halo_width" format="dimension" />
+        <attr name="pointer_halo_border_width" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="circle_progress_color" format="color"/>
+        <attr name="pointer_color" format="color"/>
+        <attr name="pointer_halo_color" format="color"/>
+        <attr name="pointer_halo_color_ontouch" format="color"/>
+        <attr name="pointer_alpha_ontouch" format="integer"/>
+        <attr name="start_angle" format="float"/>
+        <attr name="end_angle" format="float"/>
+        <attr name="circle_fill" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702655231329",
+    "firebase_url": "https://aesp---ga4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aesp---ga4",
+    "storage_bucket": "aesp---ga4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702655231329:android:c870dc9b59793b05fc8120",
+        "android_client_info": {
+          "package_name": "vn.gotech.audiobook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702655231329-7i4jcn2eu9on5p5be401e0bnd18087q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.gotech.audiobook",
+            "certificate_hash": "bd64aa01505fc70c6d127de2ce1ff1dbc4f0409e"
+          }
+        },
+        {
+          "client_id": "702655231329-r8rd0boh43cchpro5dg4u65l5rpg9p6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG8bYnZjXu57anlQZyi6LAK_uN8b5WkrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702655231329-r8rd0boh43cchpro5dg4u65l5rpg9p6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+
+    </style>
+
+    <style name="AppTheme.DividerLine">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/md_grey_200</item>
+    </style>
+    <style name="AppTheme.BackgroundWhite">
+        <item name="android:background">@color/md_grey_800</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="AppTheme.BackgroundGrey">
+        <item name="android:background">@color/md_grey_600</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

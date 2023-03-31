@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA573E</color>
+    <color name="colorPrimaryDark">#F78500</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPureWhite">#FFFFFF</color>
+    <color name="colorPureBlack">#000000</color>
+    <color name="divider_line">#E8E8E8</color>
+    <color name="divider_fat">@color/md_grey_200</color>
+    <color name="colorPrimaryText">@color/md_grey_800</color>
+    <color name="colorSecondaryText">@color/md_grey_600</color>
+    <color name="colorIcon">@color/colorPureBlack</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorIconHighlight">@color/colorPrimary</color>
+
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+
+    <color name="default_thumb_color">#ff6f00</color>
+    <color name="default_track_color">#c3a9a9a9</color>
+
+    <array name="default_index_gradient">
+        <item>@color/green</item>
+        <item>@color/red</item>
+    </array>
+
+
+    <array name="progressColor">
+        <item>@color/colorPrimary</item>
+        <item>#FFA463</item>
+    </array>
+
+    <array name="default_track_gradient">
+        <item>@color/default_track_color</item>
+    </array>
+</resources>

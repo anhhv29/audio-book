@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AudioBook GT</string>
+    <string name="error_no_connection">Không có kết nối internet</string>
+    <string name="waiting">Đang tải ...</string>
+    <string name="error_field_required">Trường này còn trống</string>
+    <string name="error_matching">Không đúng định dạng</string>
+    <string name="error_equal">Nhập lại mật khẩu không trùng</string>
+
+    <string name="error_network">Không thể kết nối tới máy chủ</string>
+    <string name="error_server">Có lỗi xảy ra, vui lòng thử lại</string>
+    <string name="error_auth">Phiên đăng nhập đã kết thúc, vui lòng đăng nhập lại</string>
+</resources>
