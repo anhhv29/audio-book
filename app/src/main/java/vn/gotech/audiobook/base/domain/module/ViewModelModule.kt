@@ -5,7 +5,7 @@ import org.koin.dsl.module
 import vn.gotech.audiobook.base.VersionCheckingViewModel
 //import vn.gotech.audiobook.ui.book.detail.BookDetailViewModel
 //import vn.gotech.audiobook.ui.category.CategoryNewViewModel
-//import vn.gotech.audiobook.ui.category.detail.CategoryDetailViewModel
+//import vn.gotech.audiobook.ui.home.detail.CategoryDetailViewModel
 //import vn.gotech.audiobook.ui.change_password.ChangePasswordViewModel
 //import vn.gotech.audiobook.ui.change_password.otp.ChangePasswordOtpViewModel
 //import vn.gotech.audiobook.ui.favorite.FavoriteViewModel

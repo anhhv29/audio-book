@@ -94,7 +94,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ui.category.detail.CategoryDetailActivity"
+            android:name="vn.gotech.audiobook.ui.home.detail.CategoryDetailActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
