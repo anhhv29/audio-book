@@ -40,61 +40,7 @@
         </activity>
 
         <activity
-            android:name=".ui.home.HomeActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.register.RegisterActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.register.otp.RegisterOtpActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.forgot.ForgotActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.forgot.otp.ForgotOtpActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.change_password.ChangePasswordActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.change_password.otp.ChangePasswordOtpActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ui.book.detail.BookDetailActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="vn.gotech.audiobook.ui.home.detail.CategoryDetailActivity"
+            android:name=".ui.HomeActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />

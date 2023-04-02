@@ -63,7 +63,6 @@ class ApiService {
         fun getCategorySlider(@QueryMap params: MutableMap<String, Any>): Response<BaseResponse<MutableList<Category>>>
 
         @GET("api/get-comment")
-        suspend fun getComment(@QueryMap params: MutableMap<String, Any>): Response<BaseResponse<MutableList<Comment>>>
 
         @POST("api/new-comment")
         suspend fun newComment(@QueryMap params: MutableMap<String, Any>): Response<BaseResponse<Any>>

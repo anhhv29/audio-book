@@ -24,9 +24,6 @@ class RequestAuthRepository(private val apiService: ApiService.Auth) {
     suspend fun updateUserInfo(@QueryMap params: MutableMap<String, Any>) =
         apiService.saveUserInfo(params)
 
-    suspend fun getComment(@QueryMap params: MutableMap<String, Any>) =
-        apiService.getComment(params)
-
     suspend fun newComment(@QueryMap params: MutableMap<String, Any>) =
         apiService.newComment(params)
 

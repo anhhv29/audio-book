@@ -19,9 +19,6 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import vn.gotech.audiobook.R
-import vn.gotech.audiobook.base.domain.ressponse.Book
-import vn.gotech.audiobook.base.domain.ressponse.Card
-import vn.gotech.audiobook.base.domain.ressponse.News
 import java.io.PrintWriter
 import java.io.StringWriter
 import java.text.NumberFormat
@@ -262,29 +259,4 @@ fun Long.asLongToTime(): String {
     val strMinutes = if (minutes.toString().length < 2) "0$minutes" else minutes.toString()
     val strHours = if (hours.toString().length < 2) "0$hours" else hours.toString()
     return if (hours > 0) "${strHours}:${strMinutes}:${strSeconds}" else "${strMinutes}:${strSeconds}"
-}
-
-fun Card.convert2Book(): Book {
-    val book = Book()
-//    book.id = this.id
-//    book.image = this.image
-//    book.favorite = this.favorite
-//    book.isRead = this.isRead
-//    book.name = this.name
-//    book.rating = this.rating
-//    book.viewCount = this.viewCount
-//    book.progress = this.progress
-    return book
-}
-
-fun Card.convert2News(): News {
-    val news = News()
-    news.id = this.id
-    news.thumbnail = this.image
-    news.favorite = this.favorite
-    news.isRead = this.isRead
-    news.name = this.name
-    news.rating = this.rating
-    news.viewCount = this.viewCount
-    return news
 }

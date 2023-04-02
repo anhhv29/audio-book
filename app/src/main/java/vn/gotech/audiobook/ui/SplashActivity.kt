@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.LayoutInflater
 import vn.gotech.audiobook.databinding.ActivitySplashBinding
-import vn.gotech.audiobook.ui.home.HomeActivity
 
 class SplashActivity : vn.gotech.audiobook.base.BaseActivity<ActivitySplashBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +12,7 @@ class SplashActivity : vn.gotech.audiobook.base.BaseActivity<ActivitySplashBindi
         Handler().postDelayed({
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
-        }, 5000)
+        }, 2000)
     }
 
     override fun inflateLayout(layoutInflater: LayoutInflater) =

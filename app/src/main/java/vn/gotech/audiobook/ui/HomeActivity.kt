@@ -1,4 +1,4 @@
-package vn.gotech.audiobook.ui.home
+package vn.gotech.audiobook.ui
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -35,7 +35,6 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
         super.onCreate(savedInstanceState)
 
         binding.apply {
-
             llHome.setOnClickListener(this@HomeActivity)
             llUser.setOnClickListener(this@HomeActivity)
             setUpViewPager()
@@ -55,7 +54,7 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
 
     private fun setUpViewPager() {
         binding.apply {
-            viewPager.offscreenPageLimit = 4
+            viewPager.offscreenPageLimit = 2
             pagerAdapter = MainPagerAdapter(supportFragmentManager)
             viewPager.adapter = pagerAdapter
             viewPager.addOnPageChangeListener(object : ViewPager.SimpleOnPageChangeListener() {
@@ -79,14 +78,15 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
         }
     }
 
-    inner class MainPagerAdapter(fm: FragmentManager) : CountSpecificPager(fm, 2) {
+    inner class MainPagerAdapter(fm: FragmentManager) : CountSpecificPager(fm, 4) {
 
         override fun getItem(position: Int): Fragment {
             return when (position) {
-//                TAB_HOME -> {
-//                    HomeFragment.newInstance(Bundle())
-//                }
 
+//                TAB_HOME -> {
+//                    CategoryNewFragment.newInstance(Bundle())
+//                }
+//
 //                TAB_ACCOUNT -> {
 //                    ProfilesFragment.newInstance(Bundle())
 //                }
@@ -129,6 +129,7 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
                         .into(ivHome)
                     tvHome.setTextColor(colorActive)
                 }
+
                 TAB_ACCOUNT -> {
                     Glide.with(ivHome.context).load(R.drawable.ic_baseline_account_24_active)
                         .into(ivUser)

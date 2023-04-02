@@ -49,55 +49,6 @@ fun Fragment.getBookSave(): Book? {
     else null
 }
 
-fun Fragment.getNewsSave(): News? {
-    return if (UserDataManager.lastNews.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastNews, News::class.java)
-    else null
-}
-
-fun AppCompatActivity.getNewsSave(): News? {
-    return if (UserDataManager.lastNews.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastNews, News::class.java)
-    else null
-}
-
-
-fun Fragment.getPodcastSave(): Podcast? {
-    return if (UserDataManager.lastPodcast.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastPodcast, Podcast::class.java)
-    else null
-}
-
-fun AppCompatActivity.getPodcastSave(): Podcast? {
-    return if (UserDataManager.lastPodcast.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastPodcast, Podcast::class.java)
-    else null
-}
-
-fun Fragment.getEpisodeSave(): Episode? {
-    return if (UserDataManager.lastEpisode.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastEpisode, Episode::class.java)
-    else null
-}
-
-fun AppCompatActivity.getEpisodeSave(): Episode? {
-    return if (UserDataManager.lastEpisode.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastEpisode, Episode::class.java)
-    else null
-}
-
-fun AppCompatActivity.getChapterSave(): Chapter? {
-    return if (UserDataManager.lastChapter.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastChapter, Chapter::class.java)
-    else null
-}
-
-fun Fragment.getChapterSave(): Chapter? {
-    return if (UserDataManager.lastChapter.isNotEmpty())
-        Toolbox.gson.fromJson(UserDataManager.lastChapter, Chapter::class.java)
-    else null
-}
-
 fun Any.asThumbnailToString(): String {
     return try {
         var url = this as String
