@@ -16,6 +16,7 @@ import vn.gotech.audiobook.base.BaseActivity
 import vn.gotech.audiobook.databinding.ActivityHomeBinding
 import vn.gotech.audiobook.extensions.hideKeyboard
 import vn.gotech.audiobook.ui.category.CategoryNewFragment
+import vn.gotech.audiobook.ui.profiles.ProfilesFragment
 import vn.gotech.audiobook.widget.CountSpecificPager
 
 class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
@@ -87,10 +88,10 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), OnClickListener {
                 TAB_HOME -> {
                     CategoryNewFragment.newInstance(Bundle())
                 }
-//
-//                TAB_ACCOUNT -> {
-//                    ProfilesFragment.newInstance(Bundle())
-//                }
+
+                TAB_ACCOUNT -> {
+                    ProfilesFragment.newInstance(Bundle())
+                }
 
                 else -> {
                     Fragment()
