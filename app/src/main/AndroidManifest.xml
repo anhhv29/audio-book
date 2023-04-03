@@ -45,6 +45,12 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".ui.category.detail.CategoryDetailActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
         <receiver
             android:name=".services.NotificationClickReceiver"
             android:exported="true" />
