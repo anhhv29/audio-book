@@ -125,11 +125,6 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
             startActivity(i)
         }
 
-        binding.tvRegister.setOnClickListener {
-            val i = Intent(activity, RegisterActivity::class.java)
-            startActivity(i)
-        }
-
         binding.btnBack.setOnClickListener {
             activity?.finish()
         }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AudioBook GT</string>
+    <string name="app_name">AudioBook Demo</string>
     <string name="error_no_connection">Không có kết nối internet</string>
     <string name="waiting">Đang tải ...</string>
     <string name="error_field_required">Trường này còn trống</string>
